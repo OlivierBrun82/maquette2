@@ -1,0 +1,163 @@
+/* On retire les marges et les styles */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* On met une image de fond sur le header avec un chemin relatif */
+
+header {
+    background-image: url(../img/Header_BackGround.jpg);
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: white;
+    font-size: 12px;
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button {
+    color: white;
+    background-color: #1e1e3c;
+    font-size: 12px;
+    font-family: sans-serif;
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    width: 25%;
+
+}
+
+.Prat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.Title{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f8fa;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.Picture {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25;
+    width: 50%;
+    padding: 5%;
+}
+
+/* We put together the 3 Panels since they have the same CSS */
+
+.Panel1,
+.Panel2,
+.Panel3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+footer {
+    color: #888888;
+    background-color: #f7f8fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+/* Typographie */
+
+
+/* we set a color to all text that where white before to black using class "black" */
+
+.black {
+    color: black;
+}
+
+/* One Box with Round corner */
+
+.Typo {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    gap: 5px;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.Taille {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.Taille > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
