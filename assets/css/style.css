@@ -179,3 +179,13 @@ footer {
     padding: 8px;
     border-radius: 5px;
 }
+
+/* Exercice positionnement */
+
+.Position1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
